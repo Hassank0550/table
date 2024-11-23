@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-box{
+    background-color: lightblue;
+    height: 50vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: ;
+}
+
+.main-table,tr,th,td{
+    border: 1px solid black;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    text-align: center;
+}
+.table-heading{
+    border: 2px solid black;
+    background-color: greenyellow;
+    height: 70px;
+    width: 80px;
+}
+.main-table, thead{
+    border: 2px solid black;
+    
+}
+
+td{
+    height: 30px;
+}
+.table-head{
+    background-color: greenyellow; 
+    border: 2px solid black;
+}
+
+.table-head:hover{
+    background-color: rgb(243, 182, 108);
+    opacity: .5;
+}
+th:hover{
+    background-color: rgb(243, 182, 108);
+    opacity: .5;
+}
+td:hover{
+    background-color: rgb(243, 182, 108);
+    opacity: .5;
+}
